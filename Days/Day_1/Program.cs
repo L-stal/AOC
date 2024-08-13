@@ -12,7 +12,7 @@ namespace Day_1
     {
         static void Main()
         {
-            string relativePath = "inputTest.txt";
+            string relativePath = "input.txt";
             IDictionary<string, int> wordToValue = new Dictionary<string, int>()
             {
                 {"zero", 0 },
@@ -69,7 +69,7 @@ namespace Day_1
 
                             lastDigit = digit;
 
-                            i += wordNumber.Key.Length - 1;
+                            i += wordNumber.Key.Length - 2;
                             break;
                         }
                     }
